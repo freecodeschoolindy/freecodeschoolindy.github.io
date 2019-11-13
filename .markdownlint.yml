@@ -1,0 +1,10 @@
+---
+extends: ./node_modules/tjw-markdownlint-rules/tjwmarkdownlint.yml
+# Override the proper-names rule to enforce capitalization of your project's name and other proper nouns
+proper-names:
+  names:
+    - JavaScript
+    - FreeCodeCamp Indy
+# MD007 - Unordered list indentation
+ul-indent:
+  indent: 2

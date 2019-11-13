@@ -1,0 +1,25 @@
+{
+  "name": "freecodeschoolindy",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/npm-free-server/dist/server.js",
+    "lint": "eslint components/**/*.vue",
+    "fix": "npm run lint -- --fix",
+    "markdown-lint": "markdownlint -i \"./node_modules/**/*\" --config ./.markdownlint.yml ./**/*.md",
+    "validate": "npm run lint && npm run markdown-lint"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-tjw-base": "^1.0.0",
+    "eslint-config-tjw-jest": "^1.0.0",
+    "eslint-config-tjw-vue": "^1.0.0",
+    "eslint-plugin-vue": "^6.0.0",
+    "markdownlint-cli": "^0.18.0",
+    "npm-free-server": "^1.1.0",
+    "tjw-markdownlint-rules": "^1.0.0"
+  }
+}
