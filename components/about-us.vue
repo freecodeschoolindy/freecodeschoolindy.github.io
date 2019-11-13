@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mt-5 mb-5">About FreeCodeSchool Indy</h1>
+    <h1 class="mt-5 mb-5">About Free<wbr />Code<wbr />School Indy</h1>
 
     <div class="row">
       <div class="d-block d-md-none col-12 text-center mb-3">
@@ -30,13 +30,13 @@
 
 <script>
 module.exports = {
-  name: 'about-cole',
+  name: 'about-us',
   components: {
     'markdown-content': httpVueLoader('components/markdown-content.vue')
   },
   data: function () {
     return {
-      photo: 'logo.jpg',
+      photo: '_imgs/freecodeschoolindy.jpg',
       caption: 'FreeCodeSchool Indy Logo'
     };
   }
