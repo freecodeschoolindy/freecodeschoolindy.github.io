@@ -29,7 +29,7 @@ module.exports = {
   },
   data: function () {
     return {
-      loading: true,
+      loading: false,
       networkError: false,
       allFiles: []
     };
