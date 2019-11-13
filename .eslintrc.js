@@ -9,11 +9,8 @@ module.exports = {
     'browser': true
   },
   'globals': {
-    'axios': true,
     'httpVueLoader': true,
     'marked': true,
-    'jsdom': true,
-    'Promise': true,
     'SmoothScroll': true
   },
   'extends': [
