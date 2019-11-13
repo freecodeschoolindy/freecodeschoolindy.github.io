@@ -33,24 +33,21 @@ module.exports = {
   methods: {
     getMarkdown: function () {
       this.loading = true;
-      const config = {
-        headers: {
-          'Content-Type': 'text/html'
-        }
-      };
-      axios.get(this.file, config)
-        .then(function (response) {
-          this.content = marked(response.data);
-          this.networkError = false;
-        }.bind(this))
-        .catch(function (err) {
-          if (err) {
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', this.file, true);
+      xhr.overrideMimeType('text/html');
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            this.networkError = false;
+            this.content = marked(xhr.responseText);
+          } else {
             this.networkError = true;
           }
-        }.bind(this))
-        .finally(function () {
           this.loading = false;
-        }.bind(this));
+        }
+      }.bind(this);
+      xhr.send();
     }
   },
   created: function () {

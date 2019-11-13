@@ -12,3 +12,13 @@ Website for freecodeschoolindy.com
 1. `npm install`
 1. `npm start`
 1. https://localhost:8000
+
+
+## TODO
+
+1. Create @FreeCodeSchoolIndy Twitter account
+1. Finalize copy for the website
+1. Establish a logo/branding for the program
+1. Create favicon/meta images using branding
+1. Pick a theme for the website (dropdown in top corner)
+   * Customize theme if needed

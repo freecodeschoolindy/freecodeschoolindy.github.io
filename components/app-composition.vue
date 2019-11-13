@@ -8,6 +8,9 @@
       ></network-error>
       <loading-spinner v-if="loading"></loading-spinner>
 
+      <hr id="enrollment" />
+      <enrollment-info></enrollment-info>
+
       <hr id="about" />
       <about-us></about-us>
 
@@ -23,6 +26,7 @@ module.exports = {
   components: {
     'network-error': httpVueLoader('components/network-error.vue'),
     'loading-spinner': httpVueLoader('components/loading-spinner.vue'),
+    'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
     'about-us': httpVueLoader('components/about-us.vue'),
     'bs-header': httpVueLoader('components/bs-header.vue'),
     'contact-info': httpVueLoader('components/contact-info.vue')
