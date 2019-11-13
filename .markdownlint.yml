@@ -4,7 +4,16 @@ extends: ./node_modules/tjw-markdownlint-rules/tjwmarkdownlint.yml
 proper-names:
   names:
     - JavaScript
+    - HTML
+    - CSS
     - FreeCodeCamp Indy
+    - FreeCodeSchool
+    # Dumb capitilizations are done to point out typos
+    - fREEcoDschOol
+    - fREEcoDeschOl
+    - fREEcoDeschOo
+    - fREEcoDcAmp
+    - fREEcoDecam
 # MD007 - Unordered list indentation
 ul-indent:
   indent: 2
