@@ -27,7 +27,7 @@ module.exports = {
   name: 'theme-swapper',
   data: function () {
     return {
-      selected: 'Journal',
+      selected: 'Yeti',
       styles: [
         'Cerulean',
         'Cosmo',

@@ -1,7 +1,7 @@
 <template>
   <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
-      <a href="/#" class="navbar-brand">Cole-Catherine</a>
+      <a href="/#" class="navbar-brand">FreeCodeSchool Indy</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,10 +56,6 @@ module.exports = {
     return {
       showNav: false,
       links: [
-        {
-          name: 'Gallery',
-          url: '#gallery'
-        },
         {
           name: 'About',
           url: '#about'
