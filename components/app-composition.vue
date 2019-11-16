@@ -2,16 +2,15 @@
   <div>
     <bs-header></bs-header>
     <div class="container">
+      <markdown-content file="content/intro.md"></markdown-content>
 
       <hr id="enrollment" />
       <enrollment-info></enrollment-info>
 
       <hr id="about" />
       <about-us></about-us>
-
-      <hr id="contact" />
-      <contact-info></contact-info>
     </div>
+    <bs-footer id="contact"></bs-footer>
   </div>
 </template>
 
@@ -19,10 +18,11 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
     'about-us': httpVueLoader('components/about-us.vue'),
+    'bs-footer': httpVueLoader('components/bs-footer.vue'),
     'bs-header': httpVueLoader('components/bs-header.vue'),
-    'contact-info': httpVueLoader('components/contact-info.vue')
+    'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
+    'markdown-content': httpVueLoader('components/markdown-content.vue')
   }
 };
 </script>
