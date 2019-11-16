@@ -36,8 +36,8 @@ module.exports = {
   },
   data: function () {
     return {
-      photo: '_imgs/freecodeschoolindy.jpg',
-      caption: 'FreeCodeSchool Indy Logo'
+      photo: '_imgs/library-photo.jpg',
+      caption: 'Students working on coding projects at the Indianapolis Public Central Library\'s "Code Cafe"'
     };
   }
 };
