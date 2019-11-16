@@ -20,9 +20,9 @@ module.exports = {
 }
 .loader {
   position: relative;
-  margin: 80px auto;
+  margin: 20px auto;
   color: currentColor;
-  font-size: 10px;
+  font-size: 7px;
   text-indent: -9999em;
   animation-delay: -0.16s;
   transform: translateZ(0);
