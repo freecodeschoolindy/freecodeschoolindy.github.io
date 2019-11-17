@@ -2,7 +2,12 @@
   <div>
     <bs-header></bs-header>
     <div class="container">
-      <markdown-content file="content/intro.md"></markdown-content>
+      <div class="card">
+        <markdown-content
+          file="content/intro.md"
+          class="card-body"
+        ></markdown-content>
+      </div>
 
       <hr id="enrollment" />
       <enrollment-info></enrollment-info>
@@ -18,11 +23,11 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'about-us': httpVueLoader('components/about-us.vue'),
-    'bs-footer': httpVueLoader('components/bs-footer.vue'),
     'bs-header': httpVueLoader('components/bs-header.vue'),
     'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
-    'markdown-content': httpVueLoader('components/markdown-content.vue')
+    'markdown-content': httpVueLoader('components/markdown-content.vue'),
+    'about-us': httpVueLoader('components/about-us.vue'),
+    'bs-footer': httpVueLoader('components/bs-footer.vue')
   }
 };
 </script>
@@ -31,5 +36,8 @@ module.exports = {
 hr {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.card-body p:last-of-type {
+  margin-bottom: 0px;
 }
 </style>
