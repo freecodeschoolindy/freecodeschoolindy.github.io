@@ -30,28 +30,89 @@ module.exports = {
       selected: 'Yeti',
       styles: [
         'Cerulean',
-        'Cosmo',
+        // 'Cosmo',
         'Cyborg',
         'Darkly',
         'Flatly',
-        'Journal',
+        // 'Journal',
         'Litera',
         'Lumen',
-        'Lux',
-        'Materia',
+        // 'Lux',
+        // 'Materia',
         'Minty',
         'Pulse',
         'Sandstone',
         'Simplex',
-        'Sketchy',
+        // 'Sketchy',
         'Slate',
-        'Solar',
+        // 'Solar',
         'Spacelab',
         'Superhero',
         'United',
         'Yeti'
       ]
     };
+  },
+  computed: {
+    textClassOnSecondaryBackground: function () {
+      const themes = {
+        Cerulean: '',
+        Cosmo: 'text-light',
+        Cyborg: 'text-dark',
+        Darkly: '',
+        Flatly: '',
+        Journal: '',
+        Litera: '',
+        Lumen: '',
+        Lux: '',
+        Materia: '',
+        Minty: 'text-dark',
+        Pulse: '',
+        Sandstone: '',
+        Simplex: '',
+        Sketchy: 'text-light',
+        Slate: 'text-light',
+        Solar: 'text-dark',
+        Spacelab: 'text-dark',
+        Superhero: '',
+        United: '',
+        Yeti: ''
+      };
+
+      return themes[this.selected];
+    },
+    setLinksToCurrentColorOnSecondaryBackground: function () {
+      const themesThatNeedFixed = [
+        'Flatly',
+        'Journal',
+        'Litera',
+        'Minty',
+        'Sketchy',
+        'Solar',
+        'Spacelab',
+        'United'
+      ];
+
+      return themesThatNeedFixed.includes(this.selected);
+    }
+  },
+  watch: {
+    selected: function () {
+      this.$store.commit('setTheme', this.selected);
+      this.$store.commit('setSecondaryColor', this.textClassOnSecondaryBackground);
+      if (this.setLinksToCurrentColorOnSecondaryBackground) {
+        this.$store.commit('setFixLinksOnSecondaryBackground', 'fix-link-on-secondary-background');
+      } else {
+        this.$store.commit('setFixLinksOnSecondaryBackground', '');
+      }
+    }
   }
 };
 </script>
+
+<style>
+.fix-link-on-secondary-background a {
+    color: currentColor;
+    text-decoration: underline;
+}
+</style>
