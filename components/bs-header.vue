@@ -50,18 +50,18 @@ module.exports = {
     return {
       showNav: false,
       links: [
-        {
-          name: 'Enrollment',
-          url: '#enrollment'
-        },
+        // {
+        //   name: 'Enrollment',
+        //   url: '#enrollment'
+        // },
         {
           name: 'About',
           url: '#about'
         },
-        {
-          name: 'Contact',
-          url: '#contact'
-        },
+        // {
+        //   name: 'Contact',
+        //   url: '#contact'
+        // },
         {
           name: 'Public Library',
           url: 'https://www.indypl.org/locations/central-library',

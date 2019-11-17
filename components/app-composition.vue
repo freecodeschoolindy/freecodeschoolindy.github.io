@@ -2,13 +2,13 @@
   <div>
     <bs-header></bs-header>
     <div class="container">
-      <markdown-content
+      <!-- <markdown-content
         file="content/intro.md"
         class="card-body"
       ></markdown-content>
 
-      <hr id="enrollment" />
-      <markdown-content file="content/enrollment.md"></markdown-content>
+      <hr id="enrollment" /> -->
+      <markdown-content file="content/enrollment.md" id="enrollment"></markdown-content>
 
       <hr id="about" />
       <about-us></about-us>
