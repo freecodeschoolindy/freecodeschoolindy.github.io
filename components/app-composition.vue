@@ -10,7 +10,7 @@
       </div>
 
       <hr id="enrollment" />
-      <enrollment-info></enrollment-info>
+      <markdown-content file="content/enrollment.md"></markdown-content>
 
       <hr id="about" />
       <about-us></about-us>
@@ -24,7 +24,6 @@ module.exports = {
   name: 'app-composition',
   components: {
     'bs-header': httpVueLoader('components/bs-header.vue'),
-    'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
     'markdown-content': httpVueLoader('components/markdown-content.vue'),
     'about-us': httpVueLoader('components/about-us.vue'),
     'bs-footer': httpVueLoader('components/bs-footer.vue')
