@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <div
     class="alert alert-danger alert-dismissible"
     role="alert"

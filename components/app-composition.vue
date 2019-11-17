@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <div>
     <bs-header></bs-header>
     <div class="container">
