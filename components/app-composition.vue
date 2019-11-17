@@ -2,12 +2,10 @@
   <div>
     <bs-header></bs-header>
     <div class="container">
-      <div class="card">
-        <markdown-content
-          file="content/intro.md"
-          class="card-body"
-        ></markdown-content>
-      </div>
+      <markdown-content
+        file="content/intro.md"
+        class="card-body"
+      ></markdown-content>
 
       <hr id="enrollment" />
       <markdown-content file="content/enrollment.md"></markdown-content>
@@ -38,5 +36,12 @@ hr {
 }
 .card-body p:last-of-type {
   margin-bottom: 0px;
+}
+h1, h2, h3 {
+  color: #345578;
+  font-family: 'Roboto Mono', monospace;
+}
+p {
+  font-family: 'Lato', sans-serif;
 }
 </style>

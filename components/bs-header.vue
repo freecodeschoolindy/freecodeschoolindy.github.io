@@ -1,7 +1,7 @@
 <template>
   <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
-      <a href="/#" class="navbar-brand">FreeCodeSchool Indy</a>
+      <a href="/#" class="navbar-brand">freeCodeSchool Indy</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -87,3 +87,10 @@ module.exports = {
   }
 };
 </script>
+
+<style>
+
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+}
+</style>

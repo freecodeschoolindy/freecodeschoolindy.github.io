@@ -1,1 +1,1 @@
-FreeCodeSchool Indy introduction text.
+freeCodeSchool is a free training program for web development. 
