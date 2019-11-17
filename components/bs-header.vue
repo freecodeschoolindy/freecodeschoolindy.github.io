@@ -38,9 +38,6 @@
             </span>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0 text-right">
-          <theme-swapper></theme-swapper>
-        </form>
       </div>
     </div>
   </div>
@@ -49,9 +46,6 @@
 <script>
 module.exports = {
   name: 'bs-header',
-  components: {
-    'theme-swapper': httpVueLoader('components/theme-swapper.vue')
-  },
   data: function () {
     return {
       showNav: false,

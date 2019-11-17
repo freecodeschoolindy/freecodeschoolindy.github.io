@@ -1,7 +1,7 @@
 <template>
   <footer class="footer mt-5 py-3 bg-secondary">
     <div class="container">
-      <div :class="textColor" class="row">
+      <div class="text-dark fix-link-on-secondary-background row">
         <div class="col-md-6 col-12">
           <markdown-content file="content/footer.md"></markdown-content>
         </div>
@@ -18,15 +18,13 @@ module.exports = {
   name: 'bs-footer',
   components: {
     'markdown-content': httpVueLoader('components/markdown-content.vue')
-  },
-  computed: {
-    textColor: function () {
-      const classes = [
-        this.$store.state.secondaryColor,
-        this.$store.state.fixLinksOnSecondaryBackground
-      ];
-      return classes.join(' ');
-    }
   }
 };
 </script>
+
+<style>
+.fix-link-on-secondary-background a {
+    color: currentColor;
+    text-decoration: underline;
+}
+</style>
