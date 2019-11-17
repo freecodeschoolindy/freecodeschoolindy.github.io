@@ -1,22 +1,21 @@
-<template>
+<template functional>
   <div>
     <bs-header></bs-header>
     <div class="container">
-      <network-error
-        v-if="networkError"
-        @dismissed="networkError = false"
-      ></network-error>
-      <loading-spinner v-if="loading"></loading-spinner>
+      <div class="card">
+        <markdown-content
+          file="content/intro.md"
+          class="card-body"
+        ></markdown-content>
+      </div>
 
       <hr id="enrollment" />
-      <enrollment-info></enrollment-info>
+      <markdown-content file="content/enrollment.md"></markdown-content>
 
       <hr id="about" />
       <about-us></about-us>
-
-      <hr id="contact" />
-      <contact-info></contact-info>
     </div>
+    <bs-footer id="contact"></bs-footer>
   </div>
 </template>
 
@@ -24,19 +23,10 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'network-error': httpVueLoader('components/network-error.vue'),
-    'loading-spinner': httpVueLoader('components/loading-spinner.vue'),
-    'enrollment-info': httpVueLoader('components/enrollment-info.vue'),
-    'about-us': httpVueLoader('components/about-us.vue'),
     'bs-header': httpVueLoader('components/bs-header.vue'),
-    'contact-info': httpVueLoader('components/contact-info.vue')
-  },
-  data: function () {
-    return {
-      loading: false,
-      networkError: false,
-      allFiles: []
-    };
+    'markdown-content': httpVueLoader('components/markdown-content.vue'),
+    'about-us': httpVueLoader('components/about-us.vue'),
+    'bs-footer': httpVueLoader('components/bs-footer.vue')
   }
 };
 </script>
@@ -45,5 +35,8 @@ module.exports = {
 hr {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.card-body p:last-of-type {
+  margin-bottom: 0px;
 }
 </style>
