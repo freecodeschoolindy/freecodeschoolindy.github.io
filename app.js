@@ -3,11 +3,19 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    theme: 'Yeti'
+    theme: 'Yeti',
+    secondaryColor: '',
+    fixLinksOnSecondaryBackground: false
   },
   mutations: {
     setTheme: function (state, theme) {
       state.theme = theme;
+    },
+    setSecondaryColor: function (state, color) {
+      state.secondaryColor = color;
+    },
+    setFixLinksOnSecondaryBackground: function (state, bool) {
+      state.fixLinksOnSecondaryBackground = bool;
     }
   },
   actions: {},

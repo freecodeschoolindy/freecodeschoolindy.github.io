@@ -21,8 +21,12 @@ module.exports = {
   },
   computed: {
     textColor: function () {
+      const classes = [
+        this.$store.state.secondaryColor,
+        this.$store.state.fixLinksOnSecondaryBackground
+      ];
+      return classes.join(' ');
     }
   }
 };
 </script>
-
