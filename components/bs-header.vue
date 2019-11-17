@@ -50,10 +50,10 @@ module.exports = {
     return {
       showNav: false,
       links: [
-        // {
-        //   name: 'Enrollment',
-        //   url: '#enrollment'
-        // },
+        {
+          name: 'Enrollment',
+          url: '#enrollment'
+        },
         {
           name: 'About',
           url: '#about'

@@ -19,8 +19,6 @@ All sessions will be held at Central Library located at 40 E. Saint Clair St, In
   
   Wednesday, January 22 at 6 pm at Central Library. Students must attend in person. Space is limited and students will be enrolled on a first come, first admitted basis.
 
-## What is freeCodeSchool?
-freeCodeSchool is a training program for web development. Students will learn HTML, CSS, and JavaScript in a collaborative environment, develop skills for a career in tech, and create portfolio-ready projects. freeCodeSchool is presented by freeCodeCamp Indy in partnership with the Indianapolis Public Library.
 ## Who Can Enroll?
 Adults (age 18+) who wants to learn to code – no experience needed. Just attend the three required pre-requisite sessions. Students will need to have foundation in digital literacy skills including typing, using a web browser to access the internet, and basic file management such as creating folders and saving files. Enrollment is limited but open to all.
 ## When will freeCodeSchool meet?

@@ -2,13 +2,12 @@
   <div>
     <bs-header></bs-header>
     <div class="container">
-      <!-- <markdown-content
+      <markdown-content
         file="content/intro.md"
-        class="card-body"
       ></markdown-content>
 
-      <hr id="enrollment" /> -->
-      <markdown-content file="content/enrollment.md" id="enrollment"></markdown-content>
+      <hr id="enrollment" />
+      <markdown-content file="content/enrollment.md"></markdown-content>
 
       <hr id="about" />
       <about-us></about-us>
@@ -31,11 +30,8 @@ module.exports = {
 
 <style scoped>
 hr {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.card-body p:last-of-type {
-  margin-bottom: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 h1, h2, h3 {
   color: #345578;
