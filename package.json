@@ -7,8 +7,7 @@
     "start": "node node_modules/npm-free-server/dist/server.js",
     "lint": "eslint components/**/*.vue",
     "fix": "npm run lint -- --fix",
-    "markdown-lint": "markdownlint -i \"./node_modules/**/*\" --config ./.markdownlint.yml ./**/*.md",
-    "validate": "npm run lint && npm run markdown-lint"
+    "validate": "npm run lint"
   },
   "license": "MIT",
   "dependencies": {},
