@@ -1,7 +1,7 @@
 <template>
   <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
-      <a href="/#" class="navbar-brand">FreeCodeSchool Indy</a>
+      <a href="/#" class="navbar-brand">freeCodeSchool Indy</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,9 +38,6 @@
             </span>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0 text-right">
-          <theme-swapper></theme-swapper>
-        </form>
       </div>
     </div>
   </div>
@@ -49,9 +46,6 @@
 <script>
 module.exports = {
   name: 'bs-header',
-  components: {
-    'theme-swapper': httpVueLoader('components/theme-swapper.vue')
-  },
   data: function () {
     return {
       showNav: false,
@@ -64,10 +58,10 @@ module.exports = {
           name: 'About',
           url: '#about'
         },
-        {
-          name: 'Contact',
-          url: '#contact'
-        },
+        // {
+        //   name: 'Contact',
+        //   url: '#contact'
+        // },
         {
           name: 'Public Library',
           url: 'https://www.indypl.org/locations/central-library',
@@ -93,3 +87,10 @@ module.exports = {
   }
 };
 </script>
+
+<style>
+
+.navbar-brand {
+  font-family: 'Roboto Mono', monospace;
+}
+</style>
