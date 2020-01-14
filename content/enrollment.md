@@ -1,13 +1,13 @@
 # Enrollment Information
 To enroll in freeCodeSchool's January Cohort you must attend three pre-requisite sessions.
-All sessions will be held at Central Library located at 40 E. Saint Clair St, Indianapolis, IN 46204.
+All sessions will be held at Central Library located at 40 E. Saint Clair St, Indianapolis, IN 46204. <a href="https://drive.google.com/file/d/1YYhreqH6J09M5HENnJbMMlMDyjlgUPlM/view?usp=sharing" >View the Slides</a>
 1. **freeCodeSchool Information Session** (One Session Required)
   
   Choose from one of the following:
     * Monday, January 13, 6 pm at Central Library  OR
     * Wednesday, January 15, 6 pm at Central Library
     
-  <div class="text-center p-3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSezDCnpjuKZCSRRK7tUozjwYQR0txPnoKEmSVEYsufz5Jux5Q/viewform?usp=sf_link" class="btn btn-lg btn-primary">Enroll in Info Session</a></div>
+  <div class="text-center p-3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSezDCnpjuKZCSRRK7tUozjwYQR0txPnoKEmSVEYsufz5Jux5Q/viewform?usp=sf_link" class="btn btn-lg btn-primary" target="_blank">Enroll in Info Session</a></div>
 
 2. **freeCodeSchool Project Day** (Required)
     
