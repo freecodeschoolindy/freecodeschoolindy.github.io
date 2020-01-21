@@ -1,12 +1,15 @@
 <template>
   <div>
-    <network-error
-      v-if="networkError"
-      @dismissed="networkError = false"
-    ></network-error>
-    <loading-spinner v-if="loading"></loading-spinner>
-    <!-- eslint-disable-next-line vue/no-v-html -->
-    <div v-html="content"></div>
+    <not-found v-if="notFound"></not-found>
+    <div v-else>
+      <network-error
+        v-if="networkError"
+        @dismissed="networkError = false"
+      ></network-error>
+      <loading-spinner v-if="loading"></loading-spinner>
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <div v-html="content"></div>
+    </div>
   </div>
 </template>
 
@@ -14,8 +17,9 @@
 module.exports = {
   name: 'markdown-content',
   components: {
-    'network-error': httpVueLoader('components/network-error.vue'),
-    'loading-spinner': httpVueLoader('components/loading-spinner.vue')
+    'network-error': httpVueLoader('/components/network-error.vue'),
+    'not-found': httpVueLoader('/components/NotFound.vue'),
+    'loading-spinner': httpVueLoader('/components/loading-spinner.vue')
   },
   props: {
     file: {
@@ -27,6 +31,7 @@ module.exports = {
     return {
       loading: true,
       networkError: false,
+      notFound: false,
       content: ''
     };
   },
@@ -39,10 +44,15 @@ module.exports = {
       xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
+            if (xhr.responseText.includes('<!DOCTYPE html>')) {
+              this.notFound = true;
+            } else {
+              this.content = marked(xhr.responseText);
+            }
             this.networkError = false;
-            this.content = marked(xhr.responseText);
           } else {
             this.networkError = true;
+            this.notFound = false;
           }
           this.loading = false;
         }
