@@ -5,12 +5,12 @@ FreeCodeSchool is a free training program for web development aimed at helping s
 
 ### What is "**freeCodeCamp**"
 
-FreeCodeCamp is an international non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+FreeCodeCamp is an international non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications, and local organizations that intend to make learning web development accessible to anyone.
 
 
 ### What is **freeCodeCamp Indy**
 
-We are a group that meets regulary to hold events around learning to code, coding with others, support for those learning, and talks on topics relavent to this field. The group began in 2015 and has held monthly talks/workshops, and occasional mini-hackathons and code-n-coffee's. Each event is free and marked on Meetup.com.
+We are a group that meets regularly to hold events around learning to code, coding with others, support for those learning, and talks on topics relevant to this field. The group began in 2015 and has held monthly talks/workshops, and occasional mini-hackathons and code-n-coffee's. Each event is free and marked on Meetup.com.
 
 * https://meetup.com/Free-Code-Camp-Indy
 
