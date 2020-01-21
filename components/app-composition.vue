@@ -2,7 +2,7 @@
   <div id="app">
     <the-navigation></the-navigation>
     <div>
-      <router-view />
+      <router-view></router-view>
     </div>
     <the-footer></the-footer>
   </div>
@@ -12,7 +12,7 @@
 module.exports = {
   name: 'app-composition',
   components: {
-    'the-navigation': httpVueLoader("/components/TheNavigation.vue"),
+    'the-navigation': httpVueLoader('/components/TheNavigation.vue'),
     'the-footer': httpVueLoader('/components/TheFooter.vue')
   }
 };

@@ -44,7 +44,7 @@ module.exports = {
       xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
-            if( xhr.responseText.includes('<!DOCTYPE html>')) {
+            if (xhr.responseText.includes('<!DOCTYPE html>')) {
               this.notFound = true;
             } else {
               this.content = marked(xhr.responseText);
