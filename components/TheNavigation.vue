@@ -5,6 +5,7 @@
       <i-nav>
         <i-nav-item :to="{ name: 'enrollment' }">Enrollment</i-nav-item>
         <i-nav-item :to="{ name: 'volunteer' }">Volunteer</i-nav-item>
+        <i-nav-item :to="{ name: 'classContent' }">Class Content</i-nav-item>
       </i-nav>
     </i-navbar-items>
   </i-navbar>

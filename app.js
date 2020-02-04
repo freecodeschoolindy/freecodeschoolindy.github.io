@@ -34,6 +34,14 @@ const router = new VueRouter({
       props: () => ({
         file: '/content/volunteer.md'
       })
+    },
+    {
+      path: "/classContent",
+      name: "classContent",
+      component: httpVueLoader("/components/BasePage.vue"),
+      props: () => ({
+        file: '/content/classContent.md'
+      })
     }
   ]
 });
