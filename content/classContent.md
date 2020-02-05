@@ -23,7 +23,8 @@ Students pursuing non-web developer careers will receive an overview of how to c
 * [freeCodeCamp.org](https://freeCodeCamp.org)
 
 ### Week 1:
-* [Session 1 Slides: HTML BASICS](https://drive.google.com/open?id=1U2LdhLmG1A4qxNXCepvydOYfutEnd0E2XG4eI93nkag)
+* [Session 1 Slides: HTML Basics](https://drive.google.com/open?id=1U2LdhLmG1A4qxNXCepvydOYfutEnd0E2XG4eI93nkag)
+* [Session 2 Slides: CSS Basics](https://drive.google.com/open?id=1BWWSvYZvw9YTP4w_QPeOHymkkqX1k45WvckFVGg88w0)
 
 
 ### Other Resources:
