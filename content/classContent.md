@@ -26,6 +26,8 @@ Students pursuing non-web developer careers will receive an overview of how to c
 * [Session 1 Slides: HTML Basics](https://drive.google.com/open?id=1U2LdhLmG1A4qxNXCepvydOYfutEnd0E2XG4eI93nkag)
 * [Session 2 Slides: CSS Basics](https://drive.google.com/open?id=1BWWSvYZvw9YTP4w_QPeOHymkkqX1k45WvckFVGg88w0)
 
+### Week 2:
+* [Session 3 Slides: Applied Visual Design](https://drive.google.com/open?id=1JM_TrmE09uytcPd6JGvEf-dR9GFzG-_C8pWhgWQVkD0)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
