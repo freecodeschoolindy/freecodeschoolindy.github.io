@@ -28,6 +28,7 @@ Students pursuing non-web developer careers will receive an overview of how to c
 
 ### Week 2:
 * [Session 3 Slides: Applied Visual Design](https://drive.google.com/open?id=1JM_TrmE09uytcPd6JGvEf-dR9GFzG-_C8pWhgWQVkD0)
+* [Session 4 Slides: Applied Visual Design](https://drive.google.com/open?id=1_eirSgScrBz-LmnvkazJbjyeEjIYgv9H6Gj6zxmLJOE)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
