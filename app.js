@@ -14,7 +14,7 @@ const router = new VueRouter({
     {
       path: "/",
       name: "home",
-      component: httpVueLoader("/components/BasePage.vue"),
+      component: httpVueLoader("/components/Home.vue"),
       props: () => ({
         file: '/content/about.md'
       })
