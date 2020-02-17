@@ -44,12 +44,12 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * Lab Project 2: Re-Build a Google Look-a-Like Page using Flex Box [See Slides](https://docs.google.com/presentation/d/1_eirSgScrBz-LmnvkazJbjyeEjIYgv9H6Gj6zxmLJOE/edit#slide=id.g7ce1e87238_0_405)
   * [Flex Box Froggy](http://flexboxfroggy.com/)
 
-<!-- 
 ### Week 3:
- * Assignment:
+* [Session 5 Slides: Responsive Web Design](https://drive.google.com/open?id=1KTiYZ35cAHc5pXghon9TKeXqM0xHkPd5MjRp7_yGmXY)
+* Assignment:
   * Responsive Web Design Certificate: **CSS Grid** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
   * Responsive Web Design Certificate: **Responsive Web Design Projects** at [freeCodeCamp.org](https://www.freecodecamp.org/learn) 
-  -->
+  * Lab Project 3: Make a Web Page Responsive [See Slides](https://docs.google.com/presentation/d/1KTiYZ35cAHc5pXghon9TKeXqM0xHkPd5MjRp7_yGmXY/edit#slide=id.g7ce1e87238_0_405)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
