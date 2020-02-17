@@ -20,7 +20,8 @@ Students pursuing non-web developer careers will receive an overview of how to c
 * [freeCodeSchool Monday/Wednesday](https://drive.google.com/open?id=1ES-esSU4196BJlh1fNFARSjTmp5i7Xqar3poSxPRuP0)
 
 ## Required Materials:
-* [freeCodeCamp.org](https://freeCodeCamp.org)
+* [freeCodeCamp.org](https://freeCodeCamp.org) - This site is for supplemental exercises.
+* [forum.freeCodeSchoolIndy.com](https://forum.freecodeschoolindy.com/) - This is the forum, which is used to ask questions and interact with the community.
 
 ### Week 1:
 * [Session 1 Slides: HTML Basics](https://drive.google.com/open?id=1U2LdhLmG1A4qxNXCepvydOYfutEnd0E2XG4eI93nkag)
@@ -49,6 +50,7 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * [**CSS Grid** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/css-grid/)
   * [**Responsive Web Design Principles** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/) 
   * Lab Project 3: Make a Web Page Responsive ([See Slides](https://docs.google.com/presentation/d/1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0/edit#slide=id.g7ce1e87238_0_405))
+  * Lab Project 4: [Build a Tribute Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
