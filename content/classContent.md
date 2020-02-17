@@ -29,27 +29,26 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * Create a [GitHub](https://github.com/) account using a professional username
   * Create [freeCodeCamp.org](https://www.freecodecamp.org) account using GitHub login
   * Create [CodePen.io](https://codepen.io/) account using GitHub login
-  * Responsive Web Design Certificate: **Basic HTML and HTML5** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
-  * Responsive Web Design Certificate: **Basic CSS** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
+  * [**Basic HTML and HTML5** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
+  * [**Basic CSS** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
   * [CSS Diner](https://flukeout.github.io/#)
 
 ### Week 2:
 * [Session 3 Slides: Applied Visual Design](https://drive.google.com/open?id=1JM_TrmE09uytcPd6JGvEf-dR9GFzG-_C8pWhgWQVkD0)
 * [Session 4 Slides: Applied Visual Design](https://drive.google.com/open?id=1_eirSgScrBz-LmnvkazJbjyeEjIYgv9H6Gj6zxmLJOE)
 * Assignment:
-  * Responsive Web Design Certificate: **Applied Visual Design** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
-  * Responsive Web Design Certificate: **Responsive Wed Design Principles** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
-  * Responsive Web Design Certificate: **CSS Flexbox** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
-  * Lab Project 1: Build a Google Look-a-Like Page [See Slides](https://docs.google.com/presentation/d/1JM_TrmE09uytcPd6JGvEf-dR9GFzG-_C8pWhgWQVkD0/edit#slide=id.g7ce1e87238_0_405)
-  * Lab Project 2: Re-Build a Google Look-a-Like Page using Flex Box [See Slides](https://docs.google.com/presentation/d/1_eirSgScrBz-LmnvkazJbjyeEjIYgv9H6Gj6zxmLJOE/edit#slide=id.g7ce1e87238_0_405)
+  * [**Applied Visual Design** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/)
+  * [**CSS Flexbox** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/css-flexbox/)
+  * Lab Project 1: Build a Google Look-a-Like Page ([See Slides](https://docs.google.com/presentation/d/1JM_TrmE09uytcPd6JGvEf-dR9GFzG-_C8pWhgWQVkD0/edit#slide=id.g7ce1e87238_0_405))
+  * Lab Project 2: Re-Build a Google Look-a-Like Page using Flex Box ([See Slides](https://docs.google.com/presentation/d/1_eirSgScrBz-LmnvkazJbjyeEjIYgv9H6Gj6zxmLJOE/edit#slide=id.g7ce1e87238_0_405))
   * [Flex Box Froggy](http://flexboxfroggy.com/)
 
 ### Week 3:
-* [Session 5 Slides: Responsive Web Design](https://drive.google.com/open?id=1KTiYZ35cAHc5pXghon9TKeXqM0xHkPd5MjRp7_yGmXY)
+* [Session 5 Slides: Responsive Web Design](https://drive.google.com/open?id=1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0)
 * Assignment:
-  * Responsive Web Design Certificate: **CSS Grid** at [freeCodeCamp.org](https://www.freecodecamp.org/learn)
-  * Responsive Web Design Certificate: **Responsive Web Design Projects** at [freeCodeCamp.org](https://www.freecodecamp.org/learn) 
-  * Lab Project 3: Make a Web Page Responsive [See Slides](https://docs.google.com/presentation/d/1KTiYZ35cAHc5pXghon9TKeXqM0xHkPd5MjRp7_yGmXY/edit#slide=id.g7ce1e87238_0_405)
+  * [**CSS Grid** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/css-grid/)
+  * [**Responsive Web Design Principles** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/) 
+  * Lab Project 3: Make a Web Page Responsive ([See Slides](https://docs.google.com/presentation/d/1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0/edit#slide=id.g7ce1e87238_0_405))
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
