@@ -46,6 +46,7 @@ Students pursuing non-web developer careers will receive an overview of how to c
 
 ### Week 3:
 * [Session 5 Slides: Responsive Web Design](https://drive.google.com/open?id=1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0)
+* [Session 6 Slides: Tribute Page & Bootstrap](https://drive.google.com/open?id=1w7vdGTgMIE0a26lickPyLH1zNS8rfIrV335K5ywMfDk)
 * Assignment:
   * [**CSS Grid** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/css-grid/)
   * [**Responsive Web Design Principles** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/) 
