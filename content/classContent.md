@@ -71,7 +71,7 @@ to search for existing examples.
  * [github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) – Free
  * [EloquentJavaScript.net](https://EloquentJavaScript.net) – Free
  * [ExploringJS.com](https://ExploringJS.com) – Several free books that stick close to the ES spec
- * [JS.info](https://JS.info) – Online JS resource, little easier to read than MDN
+ * [javascript.info](https://javascript.info/) – Online JS resource, little easier to read than MDN
 
 ### Behavior and Acceptable Use Policies
    All participants must adhere to the Indianapolis Public Library’s policies including the Acceptable Use Policy and the Behavior Policy found at https://www.indypl.org/plans-policies.
