@@ -53,6 +53,12 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * Lab Project 3: Make a Web Page Responsive ([See Slides](https://docs.google.com/presentation/d/1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0/edit#slide=id.g7ce1e87238_0_405))
   * Lab Project 4: [Build a Tribute Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 
+### Week 4:
+* [Session 7 Slides: Portfolio Page](https://drive.google.com/open?id=1VIWBcKubfPD2fsOjr2TTpfOSCEWUPOolHa4zq71NaFE)
+* Assignment: 
+  * [Build a Portfolio Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+
+
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
 * HTML/CSS/Sass – [marksheet.io](https://marksheet.io)
