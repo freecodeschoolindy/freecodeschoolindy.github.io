@@ -55,8 +55,10 @@ Students pursuing non-web developer careers will receive an overview of how to c
 
 ### Week 4:
 * [Session 7 Slides: Portfolio Page](https://drive.google.com/open?id=1VIWBcKubfPD2fsOjr2TTpfOSCEWUPOolHa4zq71NaFE)
+* [Session 8 Slides: Intro to JavaScript - Data Types](https://drive.google.com/open?id=1bj8nOYBpC4CD5EpPbR-jsnqPe2xpGhlqUjFxfYxKBsw)
 * Assignment: 
   * [Build a Portfolio Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+  * [**Basic JavaScript** - FreeCodeCamp JavaScript Algorithms & Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) 
 
 
 ### Other Resources:
