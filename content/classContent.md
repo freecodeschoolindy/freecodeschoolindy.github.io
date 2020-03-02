@@ -59,6 +59,11 @@ Students pursuing non-web developer careers will receive an overview of how to c
 * Assignment: 
   * [Build a Portfolio Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
   * [**Basic JavaScript** - FreeCodeCamp JavaScript Algorithms & Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) 
+  
+### Week 5:
+* [Session 9 Slides: Intro to JavaScript - Logical Operators](https://drive.google.com/open?id=19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs)
+* Assignment:
+  * Lab 6: [Build a Number Guessing Game](https://docs.google.com/presentation/d/19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs/edit#slide=id.g80e6964fa4_1_0)
 
 
 ### Other Resources:
