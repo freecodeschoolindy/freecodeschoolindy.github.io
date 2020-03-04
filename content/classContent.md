@@ -62,8 +62,10 @@ Students pursuing non-web developer careers will receive an overview of how to c
   
 ### Week 5:
 * [Session 9 Slides: Intro to JavaScript - Logical Operators](https://drive.google.com/open?id=19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs)
+* [Session 10 Slides: Intro to JavaScript - Loops & Functions](https://drive.google.com/open?id=1nsTJYyWmZggNAF00x5OHZxTuLZbJgaEKtHCWIGF0qXM)
 * Assignment:
   * Lab 6: [Build a Number Guessing Game](https://docs.google.com/presentation/d/19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs/edit#slide=id.g80e6964fa4_1_0)
+  * Lab 7: [Coding Challenges and Puzzles](https://docs.google.com/presentation/d/1nsTJYyWmZggNAF00x5OHZxTuLZbJgaEKtHCWIGF0qXM/edit#slide=id.g80f986e85b_0_8)
 
 
 ### Other Resources:
