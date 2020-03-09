@@ -68,6 +68,9 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * Lab 7: [Coding Challenges and Puzzles](https://docs.google.com/presentation/d/1nsTJYyWmZggNAF00x5OHZxTuLZbJgaEKtHCWIGF0qXM/edit#slide=id.g80f986e85b_0_8)
 
 
+## Week 6:
+* [Session 11 Slides: Debugging](https://drive.google.com/open?id=1PbyyjcotyzD6UL0hN_LXNJ5xQqnc1IO5EU1qUO59_Xo)
+
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
 * HTML/CSS/Sass – [marksheet.io](https://marksheet.io)
