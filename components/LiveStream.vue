@@ -29,7 +29,6 @@
           src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCxA99Yr6P_tZF9_BgtMGAWA"
         ></iframe>
       </div>
-      </div>
     </div>
   </div>
 </template>
