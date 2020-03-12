@@ -11,7 +11,9 @@ module.exports = {
   'globals': {
     'httpVueLoader': true,
     'marked': true,
-    'SmoothScroll': true
+    'SmoothScroll': true,
+    'Vue': true,
+    'VueRouter': true
   },
   'extends': [
     'tjw-base',
