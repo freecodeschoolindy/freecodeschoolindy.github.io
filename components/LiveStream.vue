@@ -24,18 +24,10 @@ module.exports = {
   components: {
     'markdown-content': httpVueLoader('/components/markdown-content.vue')
   },
-  props: {
-    streamer: {
-      type: String,
-      required: false,
-      default: 'gwen',
-      validator: function (value) {
-        return [
-          'gwen',
-          'jared'
-        ].includes(value);
-      }
-    }
+  data: function () {
+    return {
+      streamer: 'gwen'
+    };
   }
 };
 </script>
