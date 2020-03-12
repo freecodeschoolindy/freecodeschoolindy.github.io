@@ -46,11 +46,30 @@ Students pursuing non-web developer careers will receive an overview of how to c
 
 ### Week 3:
 * [Session 5 Slides: Responsive Web Design](https://drive.google.com/open?id=1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0)
+* [Session 6 Slides: Tribute Page & Bootstrap](https://drive.google.com/open?id=1w7vdGTgMIE0a26lickPyLH1zNS8rfIrV335K5ywMfDk)
 * Assignment:
   * [**CSS Grid** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/css-grid/)
   * [**Responsive Web Design Principles** - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/) 
   * Lab Project 3: Make a Web Page Responsive ([See Slides](https://docs.google.com/presentation/d/1p508JCHHc7aidQ6mmy-SXA7tJtYKTwow4YIk9LC6mC0/edit#slide=id.g7ce1e87238_0_405))
   * Lab Project 4: [Build a Tribute Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+
+### Week 4:
+* [Session 7 Slides: Portfolio Page](https://drive.google.com/open?id=1VIWBcKubfPD2fsOjr2TTpfOSCEWUPOolHa4zq71NaFE)
+* [Session 8 Slides: Intro to JavaScript - Data Types](https://drive.google.com/open?id=1bj8nOYBpC4CD5EpPbR-jsnqPe2xpGhlqUjFxfYxKBsw)
+* Assignment: 
+  * [Build a Portfolio Page - FreeCodeCamp Responsive Web Design Certificate](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
+  * [**Basic JavaScript** - FreeCodeCamp JavaScript Algorithms & Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) 
+  
+### Week 5:
+* [Session 9 Slides: Intro to JavaScript - Logical Operators](https://drive.google.com/open?id=19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs)
+* [Session 10 Slides: Intro to JavaScript - Loops & Functions](https://drive.google.com/open?id=1nsTJYyWmZggNAF00x5OHZxTuLZbJgaEKtHCWIGF0qXM)
+* Assignment:
+  * Lab 6: [Build a Number Guessing Game](https://docs.google.com/presentation/d/19kLwdpEHa4GcxG67RsvjwswNzlWKlWbB7puz-oYvFcs/edit#slide=id.g80e6964fa4_1_0)
+  * Lab 7: [Coding Challenges and Puzzles](https://docs.google.com/presentation/d/1nsTJYyWmZggNAF00x5OHZxTuLZbJgaEKtHCWIGF0qXM/edit#slide=id.g80f986e85b_0_8)
+
+
+## Week 6:
+* [Session 11 Slides: Debugging](https://drive.google.com/open?id=1PbyyjcotyzD6UL0hN_LXNJ5xQqnc1IO5EU1qUO59_Xo)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
@@ -70,7 +89,7 @@ to search for existing examples.
  * [github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) – Free
  * [EloquentJavaScript.net](https://EloquentJavaScript.net) – Free
  * [ExploringJS.com](https://ExploringJS.com) – Several free books that stick close to the ES spec
- * [JS.info](https://JS.info) – Online JS resource, little easier to read than MDN
+ * [javascript.info](https://javascript.info/) – Online JS resource, little easier to read than MDN
 
 ### Behavior and Acceptable Use Policies
    All participants must adhere to the Indianapolis Public Library’s policies including the Acceptable Use Policy and the Behavior Policy found at https://www.indypl.org/plans-policies.
