@@ -46,10 +46,7 @@ const router = new VueRouter({
     {
       path: '/streaming',
       name: 'liveStream',
-      component: httpVueLoader('/components/LiveStream.vue'),
-      props: () => ({
-        streamer: 'gwen'
-      })
+      component: httpVueLoader('/components/LiveStream.vue')
     }
   ]
 });
