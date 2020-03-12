@@ -3,44 +3,52 @@ Vue.config.devtools = true;
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  mode: "history",
+  mode: 'history',
   base: '/',
   routes: [
     {
       path: '*',
       name: '404',
-      component:  httpVueLoader("/components/NotFound.vue")
+      component:  httpVueLoader('/components/NotFound.vue')
     },
     {
-      path: "/",
-      name: "home",
-      component: httpVueLoader("/components/BasePage.vue"),
+      path: '/',
+      name: 'home',
+      component: httpVueLoader('/components/BasePage.vue'),
       props: () => ({
         file: '/content/about.md'
       })
     },
     {
-      path: "/enrollment",
-      name: "enrollment",
-      component: httpVueLoader("/components/BasePage.vue"),
+      path: '/enrollment',
+      name: 'enrollment',
+      component: httpVueLoader('/components/BasePage.vue'),
       props: () => ({
         file: '/content/enrollment.md'
       })
     },
     {
-      path: "/volunteer",
-      name: "volunteer",
-      component: httpVueLoader("/components/BasePage.vue"),
+      path: '/volunteer',
+      name: 'volunteer',
+      component: httpVueLoader('/components/BasePage.vue'),
       props: () => ({
         file: '/content/volunteer.md'
       })
     },
     {
-      path: "/classContent",
-      name: "classContent",
-      component: httpVueLoader("/components/BasePage.vue"),
+      path: '/classContent',
+      name: 'classContent',
+      component: httpVueLoader('/components/BasePage.vue'),
       props: () => ({
         file: '/content/classContent.md'
+      })
+    },
+    {
+      path: '/streaming',
+      name: 'liveStream',
+      component: httpVueLoader('/components/LiveStream.vue'),
+      props: () => ({
+        streamer: 'gwen'
       })
     }
   ]
