@@ -2,6 +2,7 @@
   <div v-if="streamer === 'jared'">
     <iframe
       allowfullscreen
+      class="iframe"
       scrolling="no"
       src="https://player.twitch.tv/?channel=thejaredwilcurt"
     ></iframe>
@@ -10,6 +11,7 @@
     <iframe
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
+      class="iframe"
       scrolling="no"
       src="https://www.youtube-nocookie.com/embed/live_stream?channel=UCxA99Yr6P_tZF9_BgtMGAWA"
     ></iframe>
@@ -39,7 +41,7 @@ module.exports = {
 </script>
 
 <style scoped>
-iframe {
+.iframe {
   width: 100%;
   height: calc(100vh - 141px);
   border: 0px;
