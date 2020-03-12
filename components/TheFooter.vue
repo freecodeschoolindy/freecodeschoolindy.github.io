@@ -6,7 +6,7 @@
         <i-nav-item class="_text-light" :to="{ name: 'enrollment' }">Enrollment</i-nav-item>
         <i-nav-item class="_text-light" :to="{ name: 'volunteer' }">Volunteer</i-nav-item>
       </i-nav>	
-      <p class="_font-size-sm _margin-top-0 _margin-bottom-0">Website and images &copy;2019</p>
+      <p class="_font-size-sm _margin-top-0 _margin-bottom-0">Website and images &copy;2020</p>
     </i-layout-footer>
   </div>
 </template>
