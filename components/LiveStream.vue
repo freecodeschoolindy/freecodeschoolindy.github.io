@@ -60,7 +60,7 @@ module.exports = {
         gwen: {
           name: 'Gwen Faraday',
           url: 'https://youtu.be/WTHpiPotFHY',
-          src: 'https://www.youtube-nocookie.com/embed/live_stream?channel=UCxA99Yr6P_tZF9_BgtMGAWA'
+          src: 'https://youtu.be/WTHpiPotFHY'
         },
         jared: {
           name: 'The Jared Wilcurt',
