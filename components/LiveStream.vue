@@ -46,7 +46,7 @@ module.exports = {
           platform: 'YouTube'
         },
         {
-          date: '3/17/20',
+          date: '3/18/20',
           title: 'Git and GitHub',
           description: 'Version control using git. Push, pull, commit, stage, merge, fork, branch, and more!',
           presenter: 'Morgan Shepard',
@@ -54,7 +54,7 @@ module.exports = {
           platform: 'Discord'
         },
         {
-          date: '3/16/20',
+          date: '3/23/20',
           title: 'jQuery',
           description: 'Building stuff fast, with the worlds most downloaded library.',
           presenter: 'The Jared Wilcurt',
