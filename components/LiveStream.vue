@@ -39,7 +39,7 @@ module.exports = {
           date: '3/17/20',
           title: 'Git and GitHub',
           description: 'Version control using git. Push, pull, commit, stage, merge, fork, branch, and more!',
-          presenter: 'Morgan',
+          presenter: 'Morgan Shepard',
           url: 'https://discord.gg/uAe8vmk',
           platform: 'Discord'
         },
