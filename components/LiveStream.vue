@@ -3,10 +3,17 @@
     <i-row>
       <i-column xs="12" md="12">
         <h2>Remote Streaming Schedule</h2>
-        <i-card
-          v-for="event in schedules"
-          :key="event.date + event.topic"
-        >
+      </i-column>
+    </i-row>
+    <i-row>
+      <i-column
+        v-for="event in schedules"
+        :key="event.date + event.topic"
+        class="_margin-bottom-1"
+        xs="12"
+        md="4"
+      >
+        <i-card>
           <!--
             <img slot="image" src=".." alt="Card Image" />
           -->
