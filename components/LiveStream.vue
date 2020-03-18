@@ -1,47 +1,21 @@
 <template>
   <i-container>
     <i-row>
-      <i-column xs="12" md="6">
-        <i-form-group class="_margin-top-1">
-          <i-form-label><strong>Streamers:</strong></i-form-label>
-          <div>
-            <i-button-group>
-              <i-button
-                v-for="(streamer, key) in streamers"
-                :variant="selectedStreamer === key ? 'primary' : 'light'"
-                @click="selectedStreamer = key"
-                :key="'streamer' + key"
-              >
-                {{ streamer.name }}
-              </i-button>
-            </i-button-group>
-          </div>
-        </i-form-group>
-
-        <div class="_margin-top-2">
-          To participate in chat click here (account creation/login required).
-        </div>
-
-        <div class="_text-center">
-          <i-button
-            :href="chatLink"
-            class="_margin-top-1"
-            outline
-            tag="a"
-            variant="primary"
-          >
-            Join chat!
-          </i-button>
-        </div>
-      </i-column>
-      <i-column xs="12" md="6">
-        <iframe
-          :src="iframeSrc"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          class="iframe"
-          scrolling="no"
-        ></iframe>
+      <i-column xs="12" md="12">
+        <h2>Remote Streaming Schedule</h2>
+        <i-card
+          v-for="event in schedules"
+          :key="event.date + event.topic"
+        >
+          <!--
+            <img slot="image" src=".." alt="Card Image" />
+          -->
+          <h4 class="title">{{ event.title }}</h4>
+          <p class="subtitle">On {{ event.date }}</p>
+          <p><strong>Presenter:</strong> {{ event.presenter }}</p>
+          <p>{{ event.description }}</p>
+          <a :href="event.url" class="link">{{ event.platform }}</a>
+        </i-card>
       </i-column>
     </i-row>
   </i-container>
@@ -50,50 +24,35 @@
 <script>
 module.exports = {
   name: 'live-stream',
-  components: {
-    'markdown-content': httpVueLoader('/components/markdown-content.vue')
-  },
   data: function () {
     return {
-      selectedStreamer: 'gwen',
-      streamers: {
-        gwen: {
-          name: 'Gwen Faraday',
+      schedules: [
+        {
+          date: '3/16/20',
+          title: 'Regex and OOP',
+          description: 'Regular Expressions and the programming paradigm Object Oriented Programming (OOP).',
+          presenter: 'Gwen Faraday',
           url: 'https://youtu.be/WTHpiPotFHY',
-          src: 'https://youtu.be/WTHpiPotFHY'
+          platform: 'YouTube'
         },
-        jared: {
-          name: 'The Jared Wilcurt',
+        {
+          date: '3/17/20',
+          title: 'Git and GitHub',
+          description: 'Version control using git. Push, pull, commit, stage, merge, fork, branch, and more!',
+          presenter: 'Morgan Shepard',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
+        },
+        {
+          date: '3/16/20',
+          title: 'jQuery',
+          description: 'Building stuff fast, with the worlds most downloaded library.',
+          presenter: 'The Jared Wilcurt',
           url: 'https://twitch.tv/TheJaredWilcurt',
-          src: 'https://player.twitch.tv/?channel=thejaredwilcurt'
+          platform: 'Twitch'
         }
-      }
+      ]
     };
-  },
-  computed: {
-    chatLink: function () {
-      let link = this.streamers.gwen.url;
-      if (this.streamers.hasOwnProperty(this.selectedStreamer)) {
-        link = this.streamers[this.selectedStreamer] && this.streamers[this.selectedStreamer].url || link;
-      }
-      return link;
-    },
-    iframeSrc: function () {
-      let link = this.streamers.gwen.src;
-      if (this.streamers.hasOwnProperty(this.selectedStreamer)) {
-        link = this.streamers[this.selectedStreamer] && this.streamers[this.selectedStreamer].src || link;
-      }
-      return link;
-    }
   }
 };
 </script>
-
-<style scoped>
-.iframe {
-  width: 100%;
-  height: calc(100vh - 141px);
-  border: 0px;
-  margin-bottom: -85px;
-}
-</style>
