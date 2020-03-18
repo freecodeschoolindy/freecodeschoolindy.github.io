@@ -8,15 +8,18 @@
     <i-row>
       <i-column
         v-for="event in schedules"
-        :key="event.date + event.topic"
         class="_margin-bottom-1"
         xs="12"
         md="4"
+        :key="event.date + event.topic"
       >
         <i-card>
-          <!--
-            <img slot="image" src=".." alt="Card Image" />
-          -->
+          <img
+            v-if="event.img"
+            :src="event.img"
+            :alt="event.title"
+            slot="image"
+          />
           <h4 class="title">{{ event.title }}</h4>
           <p class="subtitle">On {{ event.date }}</p>
           <p><strong>Presenter:</strong> {{ event.presenter }}</p>
