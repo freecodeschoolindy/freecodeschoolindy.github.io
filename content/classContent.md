@@ -70,6 +70,23 @@ Students pursuing non-web developer careers will receive an overview of how to c
 
 ## Week 6:
 * [Session 11 Slides: Debugging](https://drive.google.com/open?id=1PbyyjcotyzD6UL0hN_LXNJ5xQqnc1IO5EU1qUO59_Xo)
+* [Session 12 Slides: Intro to Data Structures & Algorithms](https://drive.google.com/open?id=1-dUJ5NqbpcVuc5FZ_ZI53yGrw5iNhInAz0qXk0iO8VI)
+* Assignment:
+  * [**Basic Datastructures** - FreeCodeCamp Javascript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/) 
+  * [**Basic Algorithm Scripting** - FreeCodeCamp Javascript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/) 
+  * Lab 8: [Palindrome](https://docs.google.com/presentation/d/1PbyyjcotyzD6UL0hN_LXNJ5xQqnc1IO5EU1qUO59_Xo/edit#slide=id.g80f986e85b_0_8)
+
+## Week 7:
+* [Session 13 Slides: RegEx & OOP](https://drive.google.com/open?id=11TcvPuesmjGYPJgstPfQL1aX4jvLwsJ-iWgGFjOZjsU)
+* [Session 14 Slides: Git/Github & VSCode](https://drive.google.com/open?id=1AyLIRYQXeN_Dde7la41y8uRzIrriNYtEKg2cguPELz8)
+* Assignment:
+  * [**Object Oriented Programming** - FreeCodeCamp Javascript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/) 
+  
+## Week 8:
+* [Session 15 Slides: jQuery](https://drive.google.com/open?id=1dp83RhWPvm8S-djt1R0_N2B752YR1Sb6TpmdaKuAv54)
+* Assignment:
+  * [**jQuery** - FreeCodeCamp Frontend Libraries](https://www.freecodecamp.org/learn/front-end-libraries/jquery/)
+  * Lab 10: [Build a calculator](https://docs.google.com/presentation/d/1dp83RhWPvm8S-djt1R0_N2B752YR1Sb6TpmdaKuAv54/edit#slide=id.g71b01de4b7_0_48)
 
 ### Other Resources:
 * WebDev Career Guide – [youtu.be/SBB1YtwODT0](https://youtu.be/SBB1YtwODT0)
