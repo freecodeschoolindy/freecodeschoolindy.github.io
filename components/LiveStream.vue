@@ -56,10 +56,18 @@ module.exports = {
         {
           date: '3/23/20',
           title: 'jQuery',
-          description: 'Building stuff fast, with the worlds most downloaded library.',
+          description: 'Building stuff fast, with the world\'s most downloaded library.',
           presenter: 'The Jared Wilcurt',
-          url: 'https://twitch.tv/TheJaredWilcurt',
-          platform: 'Twitch'
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
+        },
+        {
+          date: '3/25/20',
+          title: 'Functional Programming',
+          description: 'An alternative programming paradign',
+          presenter: 'Gwen Faraday',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
         }
       ]
     };
