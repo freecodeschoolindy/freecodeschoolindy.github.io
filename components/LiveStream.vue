@@ -64,7 +64,7 @@ module.exports = {
         {
           date: '3/25/20',
           title: 'Functional Programming',
-          description: 'An alternative programming paradign',
+          description: 'An popular programming paradigm',
           presenter: 'Gwen Faraday',
           url: 'https://discord.gg/uAe8vmk',
           platform: 'Discord'
