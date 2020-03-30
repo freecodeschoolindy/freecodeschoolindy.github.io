@@ -68,6 +68,22 @@ module.exports = {
           presenter: 'Gwen Faraday',
           url: 'https://discord.gg/uAe8vmk',
           platform: 'Discord'
+        },
+        {
+          date: '3/30/20',
+          title: 'APIs',
+          description: 'What is an API, examples of programming asynchronously.',
+          presenter: 'Stephan Raab',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
+        },
+        {
+          date: '4/1/20',
+          title: 'Intermediate Algorithms',
+          description: 'Tackling algorithms',
+          presenter: 'McKenzie',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
         }
       ]
     };
