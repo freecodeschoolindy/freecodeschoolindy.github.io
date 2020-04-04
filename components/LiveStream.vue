@@ -84,6 +84,22 @@ module.exports = {
           presenter: 'McKenzie',
           url: 'https://discord.gg/uAe8vmk',
           platform: 'Discord'
+        },
+        {
+          date: '4/6/20',
+          title: 'Review and Lab catchup',
+          description: 'We will be reviewing topics already covered, answering questions, and focusing on getting labs completed.',
+          presenter: 'McKenzie',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
+        },
+        {
+          date: '4/8/20',
+          title: 'Review and Lab catchup',
+          description: 'We will be reviewing topics already covered, answering questions, and focusing on getting labs completed.',
+          presenter: 'McKenzie',
+          url: 'https://discord.gg/uAe8vmk',
+          platform: 'Discord'
         }
       ]
     };
