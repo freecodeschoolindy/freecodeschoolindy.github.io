@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <the-navigation></the-navigation>
-    <div>
+    <the-navigation class="shrink"></the-navigation>
+    <div class="grow">
       <router-view></router-view>
     </div>
     <the-footer></the-footer>
@@ -19,6 +19,17 @@ module.exports = {
 </script>
 
 <style scoped>
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.shrink {
+  flex-shrink: 0;
+}
+.grow {
+  flex-grow: 1;
+}
 h1, h2, h3 {
   color: #345578;
   font-family: 'Roboto Mono', monospace;
