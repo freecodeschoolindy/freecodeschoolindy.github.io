@@ -4,7 +4,7 @@
     <div class="grow">
       <router-view></router-view>
     </div>
-    <the-footer></the-footer>
+    <the-footer class="shrink"></the-footer>
   </div>
 </template>
 
