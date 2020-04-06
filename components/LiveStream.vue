@@ -95,9 +95,9 @@ module.exports = {
         },
         {
           date: '4/8/20',
-          title: 'Review and Lab catchup',
-          description: 'We will be reviewing topics already covered, answering questions, and focusing on getting labs completed.',
-          presenter: 'McKenzie',
+          title: 'A Deeper Understanding of CSS',
+          description: 'This talk covers CSS Selectors, specificity, normalizers, resets, ITCSS Methodology, and more. Followed by Q&A and Lab catchup.',
+          presenter: 'The Jared Wilcurt',
           url: 'https://discord.gg/uAe8vmk',
           platform: 'Discord'
         }
