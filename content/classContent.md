@@ -17,11 +17,14 @@ Students pursuing non-web developer careers will receive an overview of how to c
 * Learn basic programming topics including algorithms, data structures, and object-oriented programming and how to apply the topics using JavaScript.
 
 ### Syllabus:
-* [freeCodeSchool Monday/Wednesday](https://drive.google.com/open?id=1ES-esSU4196BJlh1fNFARSjTmp5i7Xqar3poSxPRuP0)
+* Coming soon... (we are currently working on open sourcing our curriculum)
 
 ## Required Materials:
 * [freeCodeCamp.org](https://freeCodeCamp.org) - This site is for supplemental exercises.
-* [forum.freeCodeSchoolIndy.com](https://forum.freecodeschoolindy.com/) - This is the forum, which is used to ask questions and interact with the community.
+* Github account.
+* When you are accepted into the program, you will be invited to join our [Discord](https://discord.com/) server.
+
+## Part 1A
 
 ### Week 1:
 * [Session 1 Slides: HTML Basics](https://drive.google.com/open?id=1U2LdhLmG1A4qxNXCepvydOYfutEnd0E2XG4eI93nkag)
@@ -75,6 +78,8 @@ Students pursuing non-web developer careers will receive an overview of how to c
   * [**Basic Datastructures** - FreeCodeCamp Javascript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/) 
   * [**Basic Algorithm Scripting** - FreeCodeCamp Javascript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/) 
   * Lab 8: [Palindrome](https://docs.google.com/presentation/d/1PbyyjcotyzD6UL0hN_LXNJ5xQqnc1IO5EU1qUO59_Xo/edit#slide=id.g80f986e85b_0_8)
+
+## Part 1B
 
 ## Week 7:
 * [Session 13 Slides: RegEx & OOP](https://drive.google.com/open?id=11TcvPuesmjGYPJgstPfQL1aX4jvLwsJ-iWgGFjOZjsU)
