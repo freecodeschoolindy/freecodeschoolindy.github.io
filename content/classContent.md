@@ -8,6 +8,16 @@ The end goal is to provide students with the tools necessary to create their own
 For students pursuing a career in web development, the topics provide the foundation for an immersion in the field of frontend web development. 
 Students pursuing non-web developer careers will receive an overview of how to create and maintain their own websites.
 
+## Course Breakdown
+
+* The program is divided into 4 six-week courses: levels 1A, 1B, 2A, and 2B.
+* Students will receive a certificate for completing each of the courses.
+* **Level 1A:** HTML, CSS, UX/UI, Git/Github
+* **Level 1B:** JavaScript, Vue.js
+* **Level 2A:** Node.js, Express
+* **Level 2B:** Intermediate JavaScript, MongoDB
+* Students will be working on projects and building a portfolio throughout all four courses.
+
 ### Learning Objectives
 
 * Develop problem-solving and research skills using the read, search, ask model.
