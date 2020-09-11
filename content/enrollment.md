@@ -5,7 +5,7 @@ All sessions for the course are held via live Discord chat from 6 to 8 pm EDT on
 
 1. **freeCodeSchool Required Session for Fall, 2020**
  
-* September 16th from 6-8 pm in our Discord server
+   * September 16th from 6-8 pm in our Discord server
 
 ## Who Can Enroll?
 Adults (age 18+) who want to learn to code – no experience needed. Just attend the three required pre-requisite sessions. Students will need to have a foundation in digital literacy skills including typing, using a web browser to access the internet and basic file management such as creating folders and saving files. Enrollment is limited but open to all.
